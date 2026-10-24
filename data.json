@@ -1,0 +1,30 @@
+{
+    "projects": [{
+        "id": 0,
+        "project_name": "Phrase Hunter",
+        "description": "A phrase guessing game where you have 5 hearts in order to win the game",
+        "technologies ":[
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "live_link": "http://127.0.0.1:3001/oop_game-v2/index.html",
+        "github_link": "https://github.com/Shaniagrg/Treehouse_Project_4",
+        "image_urls": ["../images/project_game_home.png", "../images/project_game.png"]
+
+    },
+    {   "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "Information of the users and filter the user based on whatever is typed in search bar",
+        "technologies ":[
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "live_link": "http://127.0.0.1:3001/data-pagination-and-filtering-v1/index.html",
+        "github_link": "https://github.com/Shaniagrg/TreeHouse_Project_2",
+        "image_urls": ["../images/project_pagination_home.png", "../images/project_pagination.png"]
+
+    }]
+    
+}
