@@ -27,6 +27,13 @@ app.get('/project/:id', (req, res)=>{
 	res.render('project', id); 
 })
 
+//error handle 404 
+app.use((req, res, next)=> {
+    const err = new Error("The page doesn't exist try another URL");
+    next(err);
+})
+    
+    
 
 //set up DEVELOPMENT server using listen method
 app.listen(3000, () => {
