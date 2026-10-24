@@ -30,7 +30,19 @@ app.get('/project/:id', (req, res)=>{
 //error handle 404 
 app.use((req, res, next)=> {
     const err = new Error("The page doesn't exist try another URL");
+    err.status = 404;
+    console.log(`Error: ${err.status} Error Logged: ${err.message}`)
     next(err);
+})
+
+//global error handler
+app.use((err, req, res, next)=> {
+    err.status = err.status || 600;
+    err.message = err.message || "Internal Server Error";
+
+    console.log(`Error: ${err.status} Error Logged: ${err.message}`)
+    
+    res.status(err.status).send (`<h1>${err.status} Error </h1><p>${err.message}</p>`)
 })
     
     
