@@ -10,7 +10,7 @@
         ],
         "live_link": "http://127.0.0.1:3001/oop_game-v2/index.html",
         "github_link": "https://github.com/Shaniagrg/Treehouse_Project_4",
-        "image_urls": ["../images/project_game_home.png", "../images/project_game.png"]
+        "image_urls": ["images/project_game_home.png", "images/project_game.png"]
 
     },
     {   "id": 1,
@@ -23,7 +23,7 @@
         ],
         "live_link": "http://127.0.0.1:3001/data-pagination-and-filtering-v1/index.html",
         "github_link": "https://github.com/Shaniagrg/TreeHouse_Project_2",
-        "image_urls": ["../images/project_pagination_home.png", "../images/project_pagination.png"]
+        "image_urls": ["images/project_pagination_home.png", "images/project_pagination.png"]
 
     }]
     
