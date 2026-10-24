@@ -33,11 +33,10 @@ app.get('/project/:id', (req, res, next)=>{
         console.log(data.projects[id]);
         res.render('project', {project: data.projects[id]}); 
     } else {
-        const err = new Error ("Project not found");
-        err.status = 404;
+        const err = new Error(); // ("Project not found");
+        // err.status = 404;
         next(err);
     }
-	
 })
 
 //error handle 404 
