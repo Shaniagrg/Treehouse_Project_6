@@ -3,7 +3,7 @@
         "id": 0,
         "project_name": "Phrase Hunter",
         "description": "A phrase guessing game where you have 5 hearts in order to win the game",
-        "technologies ":[
+        "technologies":[
             "HTML",
             "CSS",
             "JavaScript"
@@ -16,7 +16,7 @@
     {   "id": 1,
         "project_name": "Data Pagination and Filtering",
         "description": "Information of the users and filter the user based on whatever is typed in search bar",
-        "technologies ":[
+        "technologies":[
             "HTML",
             "CSS",
             "JavaScript"

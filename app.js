@@ -29,7 +29,8 @@ app.get('/project/:id', (req, res, next)=>{
     const id = req.params.id;
 
     //check if the project exists in the file
-    if (project){
+    if (data.projects[id]){
+        console.log(data.projects[id]);
         res.render('project', {project: data.projects[id]}); 
     } else {
         const err = new Error ("Project not found");
