@@ -23,7 +23,7 @@
         ],
         "live_link": "https://data-pagination-and-filtering.onrender.com",
         "github_link": "https://github.com/Shaniagrg/TreeHouse_Project_2",
-        "image_urls": ["images/project_1_home.png", "images/project_1_link.png"]
+        "image_urls": ["images/project_2_home.png", "images/project_2_search.png"]
 
     },
     {   "id": 2,
@@ -36,7 +36,7 @@
     ],
     "live_link": "https://treehouse-projects.onrender.com",
     "github_link": "https://github.com/Shaniagrg/Treehouse_Projects/tree/main/a_random_quote_generator-v1",
-    "image_urls": ["images/project_2_home.png", "images/project_2_search.png"]
+    "image_urls": ["images/project_1_home.png", "images/project_1_link.png"]
 
     },
     {   "id": 3,
