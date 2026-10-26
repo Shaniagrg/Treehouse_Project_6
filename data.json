@@ -8,9 +8,9 @@
             "CSS",
             "JavaScript"
         ],
-        "live_link": "http://127.0.0.1:3001/oop_game-v2/index.html",
+        "live_link": "https://oop-game.onrender.com",
         "github_link": "https://github.com/Shaniagrg/Treehouse_Project_4",
-        "image_urls": ["images/project_game_home.png", "images/project_game.png"]
+        "image_urls": ["images/project_4_home.png", "images/project_4_game.png"]
 
     },
     {   "id": 1,
@@ -21,9 +21,48 @@
             "CSS",
             "JavaScript"
         ],
-        "live_link": "http://127.0.0.1:3001/data-pagination-and-filtering-v1/index.html",
+        "live_link": "https://data-pagination-and-filtering.onrender.com",
         "github_link": "https://github.com/Shaniagrg/TreeHouse_Project_2",
-        "image_urls": ["images/project_pagination_home.png", "images/project_pagination.png"]
+        "image_urls": ["images/project_1_home.png", "images/project_1_link.png"]
+
+    },
+    {   "id": 2,
+    "project_name": "Random Quote Generator",
+    "description": "Create an app that displays random famous quotes each time a button is clicked.",
+    "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "live_link": "https://treehouse-projects.onrender.com",
+    "github_link": "https://github.com/Shaniagrg/Treehouse_Projects/tree/main/a_random_quote_generator-v1",
+    "image_urls": ["images/project_2_home.png", "images/project_2_search.png"]
+
+    },
+    {   "id": 3,
+    "project_name": "Interactive Form",
+    "description": "Using JavaScript to enhance an interactive registration form.Validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+    "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "live_link": "https://treehouse-project-3.onrender.com",
+    "github_link": "https://github.com/Shaniagrg/Treehouse_Project_3",
+    "image_urls": ["images/project_3_home.png" , "images/project_3_error.png"]
+
+    },
+    {   "id": 4,
+    "project_name": "Public API Request",
+    "description": " Build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world and communicating with APIs. They need a smart way for employees to share contact information with each other.",
+    "technologies":[
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "live_link": "https://treehouse-project-5.onrender.com",
+    "github_link": "https://github.com/Shaniagrg/Treehouse_Project_5",
+    "image_urls": ["images/project_5_home.png", "images/project_5_user.png"]
 
     }]
     
